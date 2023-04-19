@@ -14,4 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mokee_aries.mk
+    $(LOCAL_DIR)/lineage_aries.mk
+    
+COMMON_LUNCH_CHOICES := \
+    lineage_aries-userdebug \
+    lineage_aries-eng
