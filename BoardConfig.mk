@@ -38,4 +38,7 @@ TARGET_KERNEL_CONFIG := aries-perf-user_defconfig
 #BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1073741824
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1992294400 #1900M
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 -include vendor/xiaomi/aries/BoardConfigVendor.mk

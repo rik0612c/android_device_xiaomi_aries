@@ -1,0 +1,6 @@
+# Dalvik heap
+dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapsize=512m
+    
+# BT
+bluetooth.device.default_name=Xiaomi MI 2s
