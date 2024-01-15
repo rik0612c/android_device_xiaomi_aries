@@ -17,8 +17,8 @@ LOCAL_C_INCLUDES += \
 	$(call project-path-for,qcom-audio)/hal/$(TARGET_BOARD_PLATFORM)/ \
 	$(call project-path-for,qcom-audio)/hal/audio_extn \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
-	hardware/libhardware/include
-
+	hardware/libhardware/include \
+        system/media/audio/include
 LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 LOCAL_SHARED_LIBRARIES := liblog libutils libcutils libdl
